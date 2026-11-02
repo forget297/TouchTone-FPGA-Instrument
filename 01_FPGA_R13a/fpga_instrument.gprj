@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="rtl/visual/visual_monitor.v" type="file.verilog" enable="1"/>
+        <File path="rtl/comm/uart_packet_mux.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/key_remap.v" type="file.verilog" enable="1"/>
+        <File path="rtl/comm/uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="rtl/comm/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="rtl/comm/ble_notes.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/engine32.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/timbre_fade.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/controls_extended.v" type="file.verilog" enable="1"/>
+        <File path="rtl/output/guide_extended.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/adsr.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/audio_effect.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/mixer.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/phase_accumulator.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/voice.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/voice_bank.v" type="file.verilog" enable="1"/>
+        <File path="rtl/audio/waveform_generator.v" type="file.verilog" enable="1"/>
+        <File path="rtl/clock/clock_gen.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/ads1015_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/debounce.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/encoder.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/i2c_byte.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/i2c_master.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/input_mapper.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/mpr121_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/sensor_hub.v" type="file.verilog" enable="1"/>
+        <File path="rtl/input/user_controls.v" type="file.verilog" enable="1"/>
+        <File path="rtl/output/i2s_tx.v" type="file.verilog" enable="1"/>
+        <File path="rtl/output/led_guide.v" type="file.verilog" enable="1"/>
+        <File path="rtl/output/song_guide.v" type="file.verilog" enable="1"/>
+        <File path="rtl/top.v" type="file.verilog" enable="1"/>
+        <File path="constraints/tang_nano_20k.cst" type="file.cst" enable="1"/>
+        <File path="constraints/timing.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

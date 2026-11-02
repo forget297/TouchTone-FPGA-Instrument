@@ -1,0 +1,235 @@
+*** GOWIN Tcl Command Line Console  *** 
+alog error: failed to open log file: 'C:/Users/26597/AppData/Local/GowinSemi/IDE/cache/sh.log'
+current device: GW2AR-18C  GW2AR-LV18QN88C8/I7
+add new file: "rtl/audio/adsr.v"
+add new file: "rtl/audio/audio_effect.v"
+add new file: "rtl/audio/engine32.v"
+add new file: "rtl/audio/mixer.v"
+add new file: "rtl/audio/phase_accumulator.v"
+add new file: "rtl/audio/timbre_fade.v"
+add new file: "rtl/audio/voice.v"
+add new file: "rtl/audio/voice_bank.v"
+add new file: "rtl/audio/waveform_generator.v"
+add new file: "rtl/clock/clock_gen.v"
+add new file: "rtl/input/ads1015_ctrl.v"
+add new file: "rtl/input/controls_extended.v"
+add new file: "rtl/input/debounce.v"
+add new file: "rtl/input/encoder.v"
+add new file: "rtl/input/i2c_byte.v"
+add new file: "rtl/input/i2c_master.v"
+add new file: "rtl/input/key_remap.v"
+add new file: "rtl/input/input_mapper.v"
+add new file: "rtl/input/mpr121_ctrl.v"
+add new file: "rtl/input/sensor_hub.v"
+add new file: "rtl/input/user_controls.v"
+add new file: "rtl/output/guide_extended.v"
+add new file: "rtl/comm/uart_rx.v"
+add new file: "rtl/comm/uart_tx.v"
+add new file: "rtl/comm/ble_notes.v"
+add new file: "rtl/output/i2s_tx.v"
+add new file: "rtl/output/led_guide.v"
+add new file: "rtl/output/song_guide.v"
+add new file: "rtl/top.v"
+add new file: "constraints/tang_nano_20k.cst"
+add new file: "constraints/timing.sdc"
+add new file: "rtl/visual/visual_monitor.v"
+add new file: "rtl/comm/uart_packet_mux.v"
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\adsr.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\audio_effect.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\mixer.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\phase_accumulator.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\timbre_fade.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\voice.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\voice_bank.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\waveform_generator.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\clock\clock_gen.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\ads1015_ctrl.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\debounce.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\encoder.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\i2c_byte.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\i2c_master.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\key_remap.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\mpr121_ctrl.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\sensor_hub.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\user_controls.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\guide_extended.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\uart_rx.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\uart_tx.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\i2s_tx.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\led_guide.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\song_guide.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\top.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v'
+Analyzing Verilog file 'F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\uart_packet_mux.v'
+Compiling module 'top'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\top.v":1)
+Compiling module 'key_remap'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\key_remap.v":2)
+Compiling module 'note_layers'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\key_remap.v":13)
+Compiling module 'clock_gen'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\clock\clock_gen.v":2)
+Compiling module 'sensor_hub(MPR_ADDRESS=7'b1011010,PRESSURE_IDLE=1650)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\sensor_hub.v":1)
+Compiling module 'mpr121_ctrl'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\mpr121_ctrl.v":2)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\mpr121_ctrl.v":26)
+Compiling module 'ads1015_ctrl'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\ads1015_ctrl.v":3)
+Compiling module 'i2c_master(DIV=18,TIMEOUT=27000)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\i2c_master.v":2)
+Compiling module 'i2c_byte(DIV=18,TIMEOUT=27000)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\i2c_byte.v":3)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\sensor_hub.v":78)
+Compiling module 'controls_extended'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":3)
+Compiling module 'encoder'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\encoder.v":4)
+Compiling module 'debounce'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\debounce.v":1)
+Compiling module 'debounce(ACTIVE_LOW=0)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\debounce.v":1)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":44)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":54)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":55)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":59)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":60)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":63)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\controls_extended.v":85)
+Compiling module 'input_mapper(PRESSURE_INVERT=1,MIN_GAIN=128,GAIN_SHIFT=4)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":15)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 13("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":16)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":19)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":20)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":22)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\input_mapper.v":25)
+Compiling module 'timbre_fade'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\timbre_fade.v":2)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\timbre_fade.v":8)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\timbre_fade.v":11)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\timbre_fade.v":13)
+Compiling module 'engine32(NORMAL_SHIFT=10,PITCH_SHIFT=9,TIMBRE_COMP=1)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":3)
+Compiling module 'synth_lane(PITCH_SHIFT=9)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":65)
+Extracting RAM for identifier 'phases'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":70)
+Extracting RAM for identifier 'frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":72)
+Extracting RAM for identifier 'test_frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":73)
+Extracting RAM for identifier 'wavetable'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":74)
+Compiling module 'adsr'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\adsr.v":2)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":96)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":97)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":110)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":114)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 19("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":117)
+Compiling module 'synth_lane(BASE=8,PITCH_SHIFT=9)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":65)
+Extracting RAM for identifier 'phases'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":70)
+Extracting RAM for identifier 'frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":72)
+Extracting RAM for identifier 'test_frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":73)
+Extracting RAM for identifier 'wavetable'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":74)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":96)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":97)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":110)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":114)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 19("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":117)
+Compiling module 'synth_lane(BASE=16,PITCH_SHIFT=9)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":65)
+Extracting RAM for identifier 'phases'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":70)
+Extracting RAM for identifier 'frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":72)
+Extracting RAM for identifier 'test_frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":73)
+Extracting RAM for identifier 'wavetable'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":74)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":96)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":97)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":110)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":114)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 19("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":117)
+Compiling module 'synth_lane(BASE=24,PITCH_SHIFT=9)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":65)
+Extracting RAM for identifier 'phases'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":70)
+Extracting RAM for identifier 'frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":72)
+Extracting RAM for identifier 'test_frequencies'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":73)
+Extracting RAM for identifier 'wavetable'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":74)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":96)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":97)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":110)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 32("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":114)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 19("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\engine32.v":117)
+Compiling module 'audio_effect(DELAY_BITS=14,STRONG_WET=1)'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\audio_effect.v":3)
+Extracting RAM for identifier 'delay_mem'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\audio\audio_effect.v":7)
+Compiling module 'i2s_tx'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\i2s_tx.v":3)
+Compiling module 'guide_extended'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\guide_extended.v":3)
+Extracting RAM for identifier 'score'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\guide_extended.v":7)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\guide_extended.v":26)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 17("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\guide_extended.v":41)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 17("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\guide_extended.v":44)
+Compiling module 'led_guide'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\output\led_guide.v":1)
+Compiling module 'ble_notes'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":3)
+Extracting RAM for identifier 'scores'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":10)
+Extracting RAM for identifier 'remaining'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":28)
+Extracting RAM for identifier 'fifo'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":29)
+Compiling module 'uart_rx'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\uart_rx.v":1)
+Compiling module 'uart_packet_mux'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\uart_packet_mux.v":3)
+Compiling module 'uart_tx'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\uart_tx.v":1)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":115)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":150)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\comm\ble_notes.v":152)
+Compiling module 'visual_monitor'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":5)
+Extracting RAM for identifier 'raw_mem'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":12)
+Extracting RAM for identifier 'win_mem'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":12)
+Extracting RAM for identifier 'hann'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":13)
+Extracting RAM for identifier 'sin_rom'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":13)
+Extracting RAM for identifier 'cos_rom'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":13)
+Extracting RAM for identifier 'payload'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":14)
+Extracting RAM for identifier 'peak0'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":56)
+Extracting RAM for identifier 'peak1'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":56)
+Extracting RAM for identifier 'peak2'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":56)
+Extracting RAM for identifier 'peak3'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":56)
+Extracting RAM for identifier 'fcw0'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":57)
+Extracting RAM for identifier 'fcw1'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":57)
+Extracting RAM for identifier 'fcw2'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":57)
+Extracting RAM for identifier 'fcw3'("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":57)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":102)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 10("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":145)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\visual\visual_monitor.v":188)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "note_layers" instantiated to "layering" is swept in optimizing("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\top.v":43)
+WARN  (NL0002) : The module "key_remap" instantiated to "remapper" is swept in optimizing("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\top.v":35)
+WARN  (NL0002) : The module "ads1015_ctrl" instantiated to "adc" is swept in optimizing("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\sensor_hub.v":24)
+WARN  (NL0002) : The module "mpr121_ctrl" instantiated to "init_table" is swept in optimizing("F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\rtl\input\sensor_hub.v":23)
+[95%] Generate netlist file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\gwsynthesis\fpga_instrument_r13a_led.vg" completed
+[100%] Generate report file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\gwsynthesis\fpga_instrument_r13a_led_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\gwsynthesis\fpga_instrument_r13a_led.vg"
+Parsing netlist file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\gwsynthesis\fpga_instrument_r13a_led.vg" completed
+Processing netlist completed
+Reading constraint file: "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\constraints\tang_nano_20k.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\pnr\fpga_instrument_r13a_led.power.html" completed
+Generate file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\pnr\fpga_instrument_r13a_led.pin.html" completed
+Generate file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\pnr\fpga_instrument_r13a_led.rpt.html" completed
+Generate file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\pnr\fpga_instrument_r13a_led.rpt.txt" completed
+Generate file "F:\Codex\projects\2026-10-09\wo\outputs\r13a_led_score\fpga\impl\pnr\fpga_instrument_r13a_led.tr.html" completed
+Tue Oct 27 21:49:33 2026
+
