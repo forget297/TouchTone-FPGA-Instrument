@@ -1,0 +1,2 @@
+PASS JSON-derived score: UART upload, incomplete/bad-sum rejected,32 replies+guide events match, uncommitted upload preserves score, default restore
+sim/tb_score_upload_file.v:34: $finish called at 20858160000 (1ps)

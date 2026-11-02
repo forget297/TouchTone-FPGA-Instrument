@@ -1,0 +1,5 @@
+test_host.c
+visual_protocol.c
+正在生成代码...
+PASS C parser: fragmentation, interleaved replies, CRC rejection, lost packet, noise recovery
+PASS four display views, all note pages, silence; 15917 screen commands within 800x480

@@ -1,0 +1,133 @@
+{
+  "name": "上传验证：顺序、反向、休止、时值",
+  "events": [
+    {
+      "key": 0,
+      "beats": 1
+    },
+    {
+      "key": 1,
+      "beats": 1
+    },
+    {
+      "key": 2,
+      "beats": 1
+    },
+    {
+      "key": 3,
+      "beats": 1
+    },
+    {
+      "key": 4,
+      "beats": 1
+    },
+    {
+      "key": 5,
+      "beats": 1
+    },
+    {
+      "key": 6,
+      "beats": 1
+    },
+    {
+      "key": 7,
+      "beats": 1
+    },
+    {
+      "key": 8,
+      "beats": 1
+    },
+    {
+      "key": 9,
+      "beats": 1
+    },
+    {
+      "key": 10,
+      "beats": 1
+    },
+    {
+      "key": 11,
+      "beats": 1
+    },
+    {
+      "key": -1,
+      "beats": 2
+    },
+    {
+      "key": 11,
+      "beats": 1
+    },
+    {
+      "key": 10,
+      "beats": 1
+    },
+    {
+      "key": 9,
+      "beats": 1
+    },
+    {
+      "key": 8,
+      "beats": 1
+    },
+    {
+      "key": 7,
+      "beats": 1
+    },
+    {
+      "key": 6,
+      "beats": 1
+    },
+    {
+      "key": 5,
+      "beats": 1
+    },
+    {
+      "key": 4,
+      "beats": 1
+    },
+    {
+      "key": 3,
+      "beats": 1
+    },
+    {
+      "key": 2,
+      "beats": 1
+    },
+    {
+      "key": 1,
+      "beats": 1
+    },
+    {
+      "key": 0,
+      "beats": 1
+    },
+    {
+      "key": -1,
+      "beats": 2
+    },
+    {
+      "key": 0,
+      "beats": 1
+    },
+    {
+      "key": 4,
+      "beats": 2
+    },
+    {
+      "key": 7,
+      "beats": 3
+    },
+    {
+      "key": -1,
+      "beats": 1
+    },
+    {
+      "key": 11,
+      "beats": 4
+    },
+    {
+      "key": -1,
+      "beats": 2
+    }
+  ]
+}

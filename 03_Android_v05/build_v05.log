@@ -1,0 +1,48 @@
+RUN javac.exe
+RUN javac.exe
+RUN java.exe
+PASS Protocol: verified R7/R8 packets, fragmented/coalesced ACKs, resync, sequence, score validation
+RUN java.exe
+PASS Recording: standard CRC32, real sample rate WAV, PCM preservation, variable chunks, bad checksum/sequence rejection
+RUN java.exe
+PASS Notes: 32 pitch names, bank bounds, new capability and old-board fallback
+RUN java.exe
+RUN aapt2.exe
+RUN aapt2.exe
+RUN java.exe
+RUN java.exe
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+RUN aapt.exe
+package: name='cn.fpga.instrument' versionCode='5' versionName='0.5.0' platformBuildVersionName='14' platformBuildVersionCode='34' compileSdkVersion='34' compileSdkVersionCodename='14'
+sdkVersion:'23'
+targetSdkVersion:'34'
+uses-permission: name='android.permission.BLUETOOTH' maxSdkVersion='30'
+uses-permission: name='android.permission.BLUETOOTH_ADMIN' maxSdkVersion='30'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION' maxSdkVersion='30'
+uses-permission: name='android.permission.BLUETOOTH_SCAN'
+uses-permission: name='android.permission.BLUETOOTH_CONNECT'
+application-label:'FPGA 乐器助手'
+application-icon-160:'res/drawable/ic_app.xml'
+application: label='FPGA 乐器助手' icon='res/drawable/ic_app.xml'
+launchable-activity: name='cn.fpga.instrument.MainActivity'  label='' icon=''
+feature-group: label=''
+  uses-feature: name='android.hardware.bluetooth_le'
+  uses-feature: name='android.hardware.bluetooth'
+  uses-implied-feature: name='android.hardware.bluetooth' reason='requested android.permission.BLUETOOTH permission, requested android.permission.BLUETOOTH_ADMIN permission, and targetSdkVersion > 4'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_FINE_LOCATION permission'
+main
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--'
+densities: '160'
+APK C:\Users\27799\Documents\Codex\2026-10-03\d-fpga\work\android_app_v05\build\FPGA_Instrument_Assistant_v0.5.0.apk SHA256 de3bef6ead792a6044a5d5663f0cd09deacd8198b537281bbb14cfc31ed2d340

@@ -1,0 +1,830 @@
+{
+  "01_FPGA_R13a/BLE_UART_联调说明.md": {
+    "bytes": 1151,
+    "sha256": "e9fbfd682c244e13f1dbd2756dbd5f28fe2e4b0adb7570b22faeca192f3b8541"
+  },
+  "01_FPGA_R13a/build.tcl": {
+    "bytes": 1246,
+    "sha256": "337afcc1b56b3ef6fe638c7571fc24c0f6d20e1eb1fd17e7877fb6a9f8ff4394"
+  },
+  "01_FPGA_R13a/build_r13a.log": {
+    "bytes": 24473,
+    "sha256": "5fbc0e98219e1007549df13ce53353b0a73693e6c4136e5520df97f4a92dce2d"
+  },
+  "01_FPGA_R13a/constraints/tang_nano_20k.cst": {
+    "bytes": 1995,
+    "sha256": "b7faacd3dd197b1101567a12ca57f2930c2d3e64713251da6bd8c3469a3e93b0"
+  },
+  "01_FPGA_R13a/constraints/timing.sdc": {
+    "bytes": 202,
+    "sha256": "7d300ed1d1d73cb268b24b3572b6e2a2d3944bf7de567d45fd96a1229cdc677a"
+  },
+  "01_FPGA_R13a/diagnostic/build.tcl": {
+    "bytes": 514,
+    "sha256": "e5b9f05abe34d6ddbb94377331b86bf05032845ecc4dea3b21d25a55709a7bca"
+  },
+  "01_FPGA_R13a/diagnostic/encoder_diagnostic.cst": {
+    "bytes": 827,
+    "sha256": "d9304c699c540efe2d49e9ac44a4943bc2c11adbccc99c6ca21069509ad7ff50"
+  },
+  "01_FPGA_R13a/diagnostic/encoder_diagnostic.v": {
+    "bytes": 1245,
+    "sha256": "20f4284ae529d592ca99c60a153e6f0582e1367bc83c749159917b2fe134f4f1"
+  },
+  "01_FPGA_R13a/fpga_instrument.gprj": {
+    "bytes": 2829,
+    "sha256": "648ad2174c0f3787bd75ec741eaf97d69e686db63b8fb5788c29007952d92cd7"
+  },
+  "01_FPGA_R13a/R10_灯光与音量更新.md": {
+    "bytes": 2058,
+    "sha256": "3f22cabf686f6d8564d573e599372e1160e4cc81ff7d62482d7c0a9af9dc1604"
+  },
+  "01_FPGA_R13a/R11_32音演奏说明.md": {
+    "bytes": 3622,
+    "sha256": "1dc23edd3e951234f835fb5cee39d33edd773d516a554186671ba84b8dda5e05"
+  },
+  "01_FPGA_R13a/R12_音量与波形更新.md": {
+    "bytes": 4221,
+    "sha256": "d86a649080873975cf3f15d670c0229c2642459e3b74ef45e47e40fb31e3296c"
+  },
+  "01_FPGA_R13a/R6_蓝牙音符验证.md": {
+    "bytes": 3177,
+    "sha256": "11ddede562cd5e3ba18f9e704b50092856f89a456bf782aa9c5fdb9f93952fde"
+  },
+  "01_FPGA_R13a/R7_曲谱下载验证.md": {
+    "bytes": 4240,
+    "sha256": "64a6a690db42c2bdb5d201e4974bf16055cfcc831aafa0ae5f000deddad73f4e"
+  },
+  "01_FPGA_R13a/R8_键位自定义验证.md": {
+    "bytes": 3238,
+    "sha256": "2d5347041633f289c69bff0fc642f715d59e682ceac0025ad89cd06a02aed7db"
+  },
+  "01_FPGA_R13a/R9_无线演奏与录音联调.md": {
+    "bytes": 1174,
+    "sha256": "9cc53fea31f3a9db751ebc88a2805e053225ffa3c27a9e0e7d065f173b18b1d6"
+  },
+  "01_FPGA_R13a/README.md": {
+    "bytes": 1292,
+    "sha256": "9e1ab393bf0df3889261187bfe90b35347dfc79a7d0e541fdfa64c9054654b24"
+  },
+  "01_FPGA_R13a/rtl/audio/adsr.v": {
+    "bytes": 1329,
+    "sha256": "4185fe475dbc2a126150a2d5e062b86a933e4cf4a28dd59a2dab5f79739b97c6"
+  },
+  "01_FPGA_R13a/rtl/audio/audio_effect.v": {
+    "bytes": 2351,
+    "sha256": "6f8c7c6a01e97a1ce8bea0876ef82f6f7541046705ade300e76d909c37937e68"
+  },
+  "01_FPGA_R13a/rtl/audio/engine32.v": {
+    "bytes": 6093,
+    "sha256": "6cf85bfbbfc1a73a84def48ef6fff48829a5c98a3e4cd77a9d5ad98524aad917"
+  },
+  "01_FPGA_R13a/rtl/audio/fcw.hex": {
+    "bytes": 120,
+    "sha256": "6a504a7a2b3bf0bc2c410671cf8bd56a42afcdadd382cd39944d27e471020356"
+  },
+  "01_FPGA_R13a/rtl/audio/instruments.hex": {
+    "bytes": 6144,
+    "sha256": "75ce7cf17b40f3bcb38e82981b1b406f92753c6f02f0db7c5441a8e6ff70c3bb"
+  },
+  "01_FPGA_R13a/rtl/audio/mixer.v": {
+    "bytes": 574,
+    "sha256": "9ed616a2e8e1e215b6291880f1ac238994fc718059d2a80bcd9175a2f4a217ab"
+  },
+  "01_FPGA_R13a/rtl/audio/notes32.hex": {
+    "bytes": 320,
+    "sha256": "f23ac09597e1e8f95cf77f4388ba3f05cb4511d62220547f409ad7a120e44d66"
+  },
+  "01_FPGA_R13a/rtl/audio/phase_accumulator.v": {
+    "bytes": 227,
+    "sha256": "3fd38e7ec422c178c4609afee68725733279c2c520767fbc268831df67ce775f"
+  },
+  "01_FPGA_R13a/rtl/audio/sine.hex": {
+    "bytes": 1536,
+    "sha256": "969483c54b36dd4cd6361994e65f302538d9184fe154e34dd71e53d400026cd8"
+  },
+  "01_FPGA_R13a/rtl/audio/songs.hex": {
+    "bytes": 768,
+    "sha256": "95379388ff70274b5a84365362a66c5f3f31c1f2f082f6c6b0aaaab086052d4d"
+  },
+  "01_FPGA_R13a/rtl/audio/test32.hex": {
+    "bytes": 320,
+    "sha256": "5e077f6ce35ae9d14778cc3e9de2056eeef683b2b0d061c306dc837d108523de"
+  },
+  "01_FPGA_R13a/rtl/audio/timbre_fade.v": {
+    "bytes": 811,
+    "sha256": "d9ff04e9e0125edd39a5cae04d46cb0f0f840e25e9525221b050b5a87ca4629f"
+  },
+  "01_FPGA_R13a/rtl/audio/voice.v": {
+    "bytes": 751,
+    "sha256": "15a5bb97eda0808227b9a07483d744bb0baf9a9d283267790d1dc113673a39ad"
+  },
+  "01_FPGA_R13a/rtl/audio/voice_bank.v": {
+    "bytes": 903,
+    "sha256": "bb855a7deca5995ed499189792303dbef87ba243b561e9950adc1700b3ae5e90"
+  },
+  "01_FPGA_R13a/rtl/audio/waveform_generator.v": {
+    "bytes": 466,
+    "sha256": "122e5e37116cfe4b7ce6a2a4fe1df04c73f19a2a9752b7170a18b501ba5c7a05"
+  },
+  "01_FPGA_R13a/rtl/clock/clock_gen.v": {
+    "bytes": 643,
+    "sha256": "0a201dcd4ba974172dd5f82661351f529f603d60474d02ffa433f9b21dc78734"
+  },
+  "01_FPGA_R13a/rtl/comm/ble_notes.v": {
+    "bytes": 7270,
+    "sha256": "f5c722afb572a5ba998f1c3482ad07570c5994ebb900ae82aa7ad475c6768fec"
+  },
+  "01_FPGA_R13a/rtl/comm/uart_echo.v": {
+    "bytes": 1745,
+    "sha256": "dbc94c2cb007c8c77c02df677c843fb0d64fe555a3043f8c5466f039e7b66283"
+  },
+  "01_FPGA_R13a/rtl/comm/uart_packet_mux.v": {
+    "bytes": 1017,
+    "sha256": "f214ca2790c1eee4d07b42bd005f9569422d820efe8b04564cdebc46601ead67"
+  },
+  "01_FPGA_R13a/rtl/comm/uart_rx.v": {
+    "bytes": 2104,
+    "sha256": "552412887a536b51e8bdf35498e3714e9c22d3137c312ac1b933ea8b3d43238b"
+  },
+  "01_FPGA_R13a/rtl/comm/uart_tx.v": {
+    "bytes": 2031,
+    "sha256": "4a43ed9f852b6ab12aa48c1b2bbe4cba14e70953fa383c6d74498c9c1ef8481b"
+  },
+  "01_FPGA_R13a/rtl/input/ads1015_ctrl.v": {
+    "bytes": 519,
+    "sha256": "5da6c6fe663b2cbf1407392862e370b266e5b0c1baf6090a1f7d61e3b3aa264e"
+  },
+  "01_FPGA_R13a/rtl/input/controls_extended.v": {
+    "bytes": 5495,
+    "sha256": "e56d51fd03ef3d73cdabbd7a08ca3b6653985b9ad28229835b4ff2c04188ad98"
+  },
+  "01_FPGA_R13a/rtl/input/debounce.v": {
+    "bytes": 591,
+    "sha256": "094c96d7b467c2ba727a1f37568c5836fb5f33c643bfddf2ac87fc4de26aa5a8"
+  },
+  "01_FPGA_R13a/rtl/input/encoder.v": {
+    "bytes": 1641,
+    "sha256": "15416dd0e8bf79a4c2f3e59681d625fdd1772930e9ec3e324ddbb8bd479f5dae"
+  },
+  "01_FPGA_R13a/rtl/input/i2c_byte.v": {
+    "bytes": 3247,
+    "sha256": "2ad6708225b0e682887cfdda6bd74f7b441bfe10a92cece8cc3d43c4b6088bac"
+  },
+  "01_FPGA_R13a/rtl/input/i2c_master.v": {
+    "bytes": 2360,
+    "sha256": "57a5c6ec697eddb2c84857868e6b781d951a24aee35b3d8c9c728267c4295705"
+  },
+  "01_FPGA_R13a/rtl/input/input_mapper.v": {
+    "bytes": 1713,
+    "sha256": "3bedda8e0f73eb56accb16e439e55dbd9fc55560ef978ef357a6adf8ad73e11d"
+  },
+  "01_FPGA_R13a/rtl/input/key_remap.v": {
+    "bytes": 605,
+    "sha256": "f6673e168a73a6a7b0d99e6945a4e268e1dfc8de17eab89558aa184232df17df"
+  },
+  "01_FPGA_R13a/rtl/input/mpr121_ctrl.v": {
+    "bytes": 1313,
+    "sha256": "0d170a5625170cd3c9c9d2a74fb78bf9eb3e855b0eaa3370dc50584dd2658c51"
+  },
+  "01_FPGA_R13a/rtl/input/sensor_hub.v": {
+    "bytes": 4466,
+    "sha256": "6e236eebe2dbb24ac2cab9e1e86338d1a56f02f01d04ac526ff534ecab25db56"
+  },
+  "01_FPGA_R13a/rtl/input/user_controls.v": {
+    "bytes": 1810,
+    "sha256": "ecfae26e7c3e72558b10a4072588890f23f1c4195c9f5342f1dddc9901330fa2"
+  },
+  "01_FPGA_R13a/rtl/output/guide_extended.v": {
+    "bytes": 2265,
+    "sha256": "46cb660c39ff481ffecca17c7a3fc6ffe8641ef8165c69b49b552fa924708c55"
+  },
+  "01_FPGA_R13a/rtl/output/i2s_tx.v": {
+    "bytes": 1068,
+    "sha256": "9a964f792cc13395bfea950ae0cdcb4328629e1defd7907da355786f0693b35f"
+  },
+  "01_FPGA_R13a/rtl/output/led_guide.v": {
+    "bytes": 802,
+    "sha256": "c1d31c12ceaec02dcd6eaffb049fdfd7d64443f9e7aa509b5b78b849b7614849"
+  },
+  "01_FPGA_R13a/rtl/output/song_guide.v": {
+    "bytes": 849,
+    "sha256": "0308080ca8f66e2591ce7019eee8386b3ac691b81470dc004310e8b5222e0737"
+  },
+  "01_FPGA_R13a/rtl/top.v": {
+    "bytes": 5004,
+    "sha256": "d59dd2c976128fa5e439fe617164bc8e65af3a549639abde5e33df9c9c273d1d"
+  },
+  "01_FPGA_R13a/rtl/visual/cos.hex": {
+    "bytes": 6144,
+    "sha256": "f9e686b842b9363f948ed8f5c3f4fbef3c31e6e9e1d35d780c9c0bf58b62b77f"
+  },
+  "01_FPGA_R13a/rtl/visual/hann.hex": {
+    "bytes": 6144,
+    "sha256": "f18dfc17468ee2cb6c7eb3194b6d352f300d99c0fceac2ac08ca75ea5729ce6f"
+  },
+  "01_FPGA_R13a/rtl/visual/sin.hex": {
+    "bytes": 6144,
+    "sha256": "99a7d0a335cd1fe5a62ade4188773927f226e86149a7cc1d923230c53ffc40a4"
+  },
+  "01_FPGA_R13a/rtl/visual/visual_monitor.v": {
+    "bytes": 11883,
+    "sha256": "3da626595a649e1f813e11439a05d4c8c8f1eaedebfd0e838dfffb4bc67ad94d"
+  },
+  "01_FPGA_R13a/score_upload_hex.txt": {
+    "bytes": 450,
+    "sha256": "93e9c37b9b39f1c31c85d616ad78ff9a719732c43594911e1ee8eef2dbbe23a4"
+  },
+  "01_FPGA_R13a/sim/score_upload_test.hex": {
+    "bytes": 128,
+    "sha256": "9d5604053606dce7941286b493cdcbcbd08794da38d1cefaf67822545065a9cb"
+  },
+  "01_FPGA_R13a/sim/sensor_model.v": {
+    "bytes": 4162,
+    "sha256": "0914f979482f8e205a86632a71c21ca4d9e7f7cab075597b62183029119eeb73"
+  },
+  "01_FPGA_R13a/sim/tb_adsr.v": {
+    "bytes": 763,
+    "sha256": "3a9aa8d936db2bb8351853291645f70872998573040dc9d5783bbb9690012986"
+  },
+  "01_FPGA_R13a/sim/tb_adsr_expanded.v": {
+    "bytes": 915,
+    "sha256": "3cc2fc9c7625a9025bd9df4fe6b1125b0154dc7b50a7067063b186cc2a70e6d8"
+  },
+  "01_FPGA_R13a/sim/tb_audio.v": {
+    "bytes": 1498,
+    "sha256": "7d5cf36449ee84391ddd879b5e1ffe7cfa83a04ef42db6ab9c033015dfc13588"
+  },
+  "01_FPGA_R13a/sim/tb_controls.v": {
+    "bytes": 1602,
+    "sha256": "b5f3a3d1793c6ad7da3d46234b97912412f0eb70a716408e6d78e76f38e08b18"
+  },
+  "01_FPGA_R13a/sim/tb_controls_extended.v": {
+    "bytes": 1911,
+    "sha256": "9a12d8d46eaf800b7ba3146f2c1fca0bc9c80b36d33996c9c177549f0d2349c7"
+  },
+  "01_FPGA_R13a/sim/tb_delay_schedule.v": {
+    "bytes": 2032,
+    "sha256": "1962e49b900ae7a5878eb02c4d004a16bdbe4694e22b9fda4e77a4fa2664c7da"
+  },
+  "01_FPGA_R13a/sim/tb_effect.v": {
+    "bytes": 845,
+    "sha256": "529bcc3b88563928bcc73ab5cf1c65f872e4aa33343e827b9a66e062077c36d6"
+  },
+  "01_FPGA_R13a/sim/tb_effect_expanded.v": {
+    "bytes": 1196,
+    "sha256": "b4b56003bf030a85bc76588e189667514be4008cd938bfa287e455ff3b4077ef"
+  },
+  "01_FPGA_R13a/sim/tb_encoder_diagnostic.v": {
+    "bytes": 1239,
+    "sha256": "8b2121408c4b104b3a73583715347efaf5bb36d344d8c85a12f137f7943324c3"
+  },
+  "01_FPGA_R13a/sim/tb_encoder_r2.v": {
+    "bytes": 1871,
+    "sha256": "782aca087faafeca963380b7365c21ee554053a525e971afb7417a04edb1e8fa"
+  },
+  "01_FPGA_R13a/sim/tb_engine32.v": {
+    "bytes": 2720,
+    "sha256": "00d03ab39a205da240c6188171b5e17ea9926e4d688df900287c95841efc5ed8"
+  },
+  "01_FPGA_R13a/sim/tb_expression_update.v": {
+    "bytes": 2369,
+    "sha256": "ae4843cb0db733edd98278e3a4a7a9d0d1183cfaf2e4fb4f71397f05c08df5c0"
+  },
+  "01_FPGA_R13a/sim/tb_fade.v": {
+    "bytes": 919,
+    "sha256": "26001658fad2e44fe15b95a6a94a1993ad7e14551c0a909c1cefd17bf9a88bae"
+  },
+  "01_FPGA_R13a/sim/tb_guide_extended.v": {
+    "bytes": 1809,
+    "sha256": "94fbf66dcaa9f6ce21d64a16b5d0beffb7a1ae687623dd7557a6d6663176d641"
+  },
+  "01_FPGA_R13a/sim/tb_guide_lights_r10.v": {
+    "bytes": 1670,
+    "sha256": "0a5d119a2749cf13b7740d79fdeebc050f10fa3ed4d801e83c5b4b57f925b0f7"
+  },
+  "01_FPGA_R13a/sim/tb_i2c.v": {
+    "bytes": 2973,
+    "sha256": "221430847daf03619b815a47fbb4abee2ef2bd63a8c749917a7755ef894621c1"
+  },
+  "01_FPGA_R13a/sim/tb_i2s.v": {
+    "bytes": 1323,
+    "sha256": "a9eca99d4295b61e6f76f51685538bcd0aa565296e900a211e92b2ad169df5af"
+  },
+  "01_FPGA_R13a/sim/tb_latency.v": {
+    "bytes": 1763,
+    "sha256": "395e71b020d6f4840cbf870db2008f4b7dd3544553ec2ff7ba001ebab35454ff"
+  },
+  "01_FPGA_R13a/sim/tb_led.v": {
+    "bytes": 549,
+    "sha256": "bdf883a4eb72ee9005ff4660e442781a2d1c07d53670a8c8bf1c34d291755aff"
+  },
+  "01_FPGA_R13a/sim/tb_led_menu_r13a.v": {
+    "bytes": 819,
+    "sha256": "32b3139141b4444494178eddeb4acd428a6dba31e615811fc6f3d9bf6358d684"
+  },
+  "01_FPGA_R13a/sim/tb_local_visual_controls.v": {
+    "bytes": 2250,
+    "sha256": "2ebf90d1be3cb1299aaccef8ef3d839bee00a6f3221d76f78bf3149db1f21bef"
+  },
+  "01_FPGA_R13a/sim/tb_menu_ranges.v": {
+    "bytes": 1319,
+    "sha256": "296118ed177e91dca0edd8682b4e6f81d060e17b5acbe48c907061f625d8580e"
+  },
+  "01_FPGA_R13a/sim/tb_mixer.v": {
+    "bytes": 736,
+    "sha256": "158189b9bded11273b3da0412c3339822bed0fed7f2e593610ee87982dd9e829"
+  },
+  "01_FPGA_R13a/sim/tb_notes32.v": {
+    "bytes": 4162,
+    "sha256": "54b22341656b3070e446a46e1b941ae0ad1b0a0d0549c4d7f5fa393c69d9ff31"
+  },
+  "01_FPGA_R13a/sim/tb_poll_latency.v": {
+    "bytes": 1842,
+    "sha256": "e7d6dd28d0eeb1fd082da31cc1d2416fe9521af755bc2837cffa4e3de6b2c535"
+  },
+  "01_FPGA_R13a/sim/tb_pressure_r2.v": {
+    "bytes": 979,
+    "sha256": "0e621afbf660e795a22f7404a0649bb01c3cefacd5f185fd798f18b22a695a6c"
+  },
+  "01_FPGA_R13a/sim/tb_score_upload_file.v": {
+    "bytes": 2499,
+    "sha256": "f2bc8c1abaeeb638af6187c19c502ed6bcd7311e1c7ac38c8f835add1b2dfdf7"
+  },
+  "01_FPGA_R13a/sim/tb_sensors.v": {
+    "bytes": 857,
+    "sha256": "3d8c15e6932a4b2dc257b18ab63af9b3c4be03f4db8fcb5fe221046af81daf75"
+  },
+  "01_FPGA_R13a/sim/tb_system.v": {
+    "bytes": 2476,
+    "sha256": "7a6f75d3ea87bbb125bb2392b65bb467a47f71c7d826382be7936f6acb3181bd"
+  },
+  "01_FPGA_R13a/sim/tb_timbre_comp.v": {
+    "bytes": 2345,
+    "sha256": "264e61869dc75cbc8d3556748693966a6e70046ebf116bf98eaad5960aa346fe"
+  },
+  "01_FPGA_R13a/sim/tb_top_local32.v": {
+    "bytes": 1361,
+    "sha256": "b8805f9be80804d20e02e13549dbbae3118a20c3253bd4acb926bf55673b5501"
+  },
+  "01_FPGA_R13a/sim/tb_visual_monitor.v": {
+    "bytes": 1226,
+    "sha256": "6d47662baec9c6dae24183d9e10ba7628abf64bc6f3d176b9521b6038b326412"
+  },
+  "01_FPGA_R13a/sim/tb_visual_uart_mux.v": {
+    "bytes": 1501,
+    "sha256": "e4ee8be3d59d22db8ee6f079ec9e4cadec6ec11f2b0f60ecc7359200071ed169"
+  },
+  "01_FPGA_R13a/tb_ble_notes_r6_reference.v": {
+    "bytes": 1801,
+    "sha256": "12bee97d080001d3923aad62c0151cc5df2eb25103e1df2e18bdf42fc0de4ce2"
+  },
+  "01_FPGA_R13a/tb_live.v": {
+    "bytes": 2607,
+    "sha256": "a938001e8604a507f229f5d3e55ca9a5d33db9fc6b4591c72d38cd9035335929"
+  },
+  "01_FPGA_R13a/tools/analyze_audio.py": {
+    "bytes": 3109,
+    "sha256": "5dab7206e7eba66e3f3bc5a340b1d55941b8f6b12506c39057cbb3e784525bb3"
+  },
+  "01_FPGA_R13a/tools/analyze_extended.py": {
+    "bytes": 3196,
+    "sha256": "734178ea0a4af63dd9d42a3f26c69d46fe3e382030c301caaefb3a027580f611"
+  },
+  "01_FPGA_R13a/tools/build_open.py": {
+    "bytes": 1275,
+    "sha256": "8df5b4ee45155fcb9bfb70a7bf57284021cde840a74e4d1a22739eaecc3033c2"
+  },
+  "01_FPGA_R13a/tools/generate_extended.py": {
+    "bytes": 1751,
+    "sha256": "5218b6c568c04c9c7c4923de6aacb36cc5139e49713096db174c80fe7224d5fb"
+  },
+  "01_FPGA_R13a/tools/generate_fcw.py": {
+    "bytes": 148,
+    "sha256": "582011121836e18ebdee523756aa41ab3d2f3e2b7e9e2e86efbb9ffc5c185ffe"
+  },
+  "01_FPGA_R13a/tools/generate_tables.py": {
+    "bytes": 610,
+    "sha256": "3fd5505724979211e0eb83429c57c600434b8e9974acc7df6eee9dc4ec9345c7"
+  },
+  "01_FPGA_R13a/tools/generate_wavetable.py": {
+    "bytes": 150,
+    "sha256": "dbac96875e1aedc652169eb94a3602bb534783084cfe64ea31963d929581a640"
+  },
+  "01_FPGA_R13a/tools/measure_latency.py": {
+    "bytes": 1362,
+    "sha256": "a7104d5cca1785506e49d68161124d2100f336f5b14e93f25571ac2e4388fede"
+  },
+  "01_FPGA_R13a/tools/package_project.py": {
+    "bytes": 2454,
+    "sha256": "39b325233be2d2cc0e2fed48328e133e66ca50073e8db1333f584e1cafaec16a"
+  },
+  "01_FPGA_R13a/tools/run_local.ps1": {
+    "bytes": 838,
+    "sha256": "48b305ccc5a1cc8dfa26ebd1be8f8af7c84ed24fe67db73fa181bb61e569f5f2"
+  },
+  "01_FPGA_R13a/tools/run_tests.py": {
+    "bytes": 2067,
+    "sha256": "92fa7688775b941ce70279a37d02e633bd58c0f4aff4a3866a0c83b2a165bfc0"
+  },
+  "01_FPGA_R13a/validation_r13a.log": {
+    "bytes": 4322,
+    "sha256": "80d90aa1d8a8306caedc7f3970ed53edd88802a68d5b6f1c004e14e68fe5d45e"
+  },
+  "01_FPGA_R13a/万能板焊接接线表.md": {
+    "bytes": 12480,
+    "sha256": "ff7ebfb364c5156ff6ea2c95d14d1d03ca8e3119e043839a77b66a231baff6ac"
+  },
+  "01_FPGA_R13a/使用说明书.md": {
+    "bytes": 57890,
+    "sha256": "3ff15d20c4bd9840bb89b364d1f45119d284b2c9678a69ad898a892b68f9c932"
+  },
+  "01_FPGA_R13a/当前接线与引脚占用速查.md": {
+    "bytes": 12480,
+    "sha256": "ff7ebfb364c5156ff6ea2c95d14d1d03ca8e3119e043839a77b66a231baff6ac"
+  },
+  "02_ESP32_EN/CMakeLists.txt": {
+    "bytes": 183,
+    "sha256": "e617ada2bd4accf315b72dfa803c502ead6b2529f95564226a92c63991d6f694"
+  },
+  "02_ESP32_EN/main/ble_echo.c": {
+    "bytes": 8881,
+    "sha256": "c0f854c47b9289af4abad3078e53f6d99e58e9817794810c0b4fe9646833e013"
+  },
+  "02_ESP32_EN/main/CMakeLists.txt": {
+    "bytes": 239,
+    "sha256": "9da89c84f0e976d4aa6c147975d644adb43ada963e71083a9b6ac72b72dd51ba"
+  },
+  "02_ESP32_EN/main/lcd_display.c": {
+    "bytes": 9066,
+    "sha256": "e99ce8cab3081c843957551d105a0aa1cfc9c4601ee4133eccf6f0cc25349d5d"
+  },
+  "02_ESP32_EN/main/lcd_display.h": {
+    "bytes": 379,
+    "sha256": "f58d2170a725c64229668ae3d6ee59958bcd60cbd90e4f766a7ce928c21b444b"
+  },
+  "02_ESP32_EN/main/recorder.c": {
+    "bytes": 11279,
+    "sha256": "5a425a7f9eda35c9cc7a095f7a752b53e95ebc1758477af9cab845086d743e07"
+  },
+  "02_ESP32_EN/main/recorder.h": {
+    "bytes": 261,
+    "sha256": "a73dc18d8ae54a6ec03afd54257cb44119430fa91542c2cc37f9a7d83bef105e"
+  },
+  "02_ESP32_EN/main/visual_protocol.c": {
+    "bytes": 1967,
+    "sha256": "4f6da8cd99a063a02e9b5af7861a4dd276f922ffdb7774754b1d49e32b3bb64f"
+  },
+  "02_ESP32_EN/main/visual_protocol.h": {
+    "bytes": 397,
+    "sha256": "3a1ddf224716e3f9dd3bc322e50f4b6803867bbcb57d3aa3896d2d893d1fca3e"
+  },
+  "02_ESP32_EN/main/wave_view.c": {
+    "bytes": 2065,
+    "sha256": "958da6b6788ad5ec513adc9849bb1752ff843f224c067e1b00332d5d4835f7d4"
+  },
+  "02_ESP32_EN/main/wave_view.h": {
+    "bytes": 305,
+    "sha256": "a11aa335063091a4dede7b655024576b4a63734a8c22425e21c7773c67977c3f"
+  },
+  "02_ESP32_EN/README.md": {
+    "bytes": 4635,
+    "sha256": "3df24b57d54e5482fae8f83d7c0bab4fd117d980d2fb0b7d82b58a6744673997"
+  },
+  "02_ESP32_EN/sdkconfig": {
+    "bytes": 93823,
+    "sha256": "8bb22d6c30f5101bd59f2fb0ea14ca2d891eb586e622cf1f72ab0756cf4db58a"
+  },
+  "02_ESP32_EN/sdkconfig.defaults": {
+    "bytes": 528,
+    "sha256": "0cd181177d3582b06a51e9fc3bcc51cd5e0694753c31b0b9b2e94fef1002c88b"
+  },
+  "02_ESP32_EN/tests/host/common.h": {
+    "bytes": 4457,
+    "sha256": "6a1695e792ec4458804259f775adc2823bc9011592d086d2cc698caf55efc000"
+  },
+  "02_ESP32_EN/tests/host/driver/i2s_std.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/esp_heap_caps.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/esp_log.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/esp_timer.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/freertos/FreeRTOS.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/freertos/semphr.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/freertos/task.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/host/ble_hs.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "02_ESP32_EN/tests/host/run_tests.py": {
+    "bytes": 480,
+    "sha256": "77cd23262ce4649eb098abc06750cbd7c8bd871d1bdde74c62bb308e2f10321e"
+  },
+  "02_ESP32_EN/tests/host/test.c": {
+    "bytes": 3983,
+    "sha256": "a37b361c3030c574d576c1815fd95479be0d889af02b0d9907443647df027550"
+  },
+  "02_ESP32_EN/tests/host/test_wave.c": {
+    "bytes": 1183,
+    "sha256": "b2286e3e1394ac35b23a03b7cc761249b9ce16033105f99af67ada23964ee0dc"
+  },
+  "02_ESP32_EN/tests/host/test_wave_v06.c": {
+    "bytes": 2908,
+    "sha256": "28a4d78188e554924922f86eb68e5e173890a98b9f138e059ae3be904e3f0d87"
+  },
+  "02_ESP32_EN/万能板焊接接线表.md": {
+    "bytes": 12480,
+    "sha256": "ff7ebfb364c5156ff6ea2c95d14d1d03ca8e3119e043839a77b66a231baff6ac"
+  },
+  "02_ESP32_EN/当前接线与引脚占用速查.md": {
+    "bytes": 12480,
+    "sha256": "ff7ebfb364c5156ff6ea2c95d14d1d03ca8e3119e043839a77b66a231baff6ac"
+  },
+  "02_ESP32_EN/录音固件说明.md": {
+    "bytes": 13164,
+    "sha256": "c96398210f4e9966d52ce7f7ae7db4ba92ce2942a0d57a182eaf05120d281b93"
+  },
+  "03_Android_v05/AndroidManifest.xml": {
+    "bytes": 1338,
+    "sha256": "e67fd28dd82ddb351a168626056f3099a539cae0a0656e8e427f6fbd5b32c556"
+  },
+  "03_Android_v05/build.py": {
+    "bytes": 4390,
+    "sha256": "2f3feb0e9dcd90dd20be02a5e046c7b6372d6c3b3b7f0c4d254ad85a3837e78a"
+  },
+  "03_Android_v05/build_v05.log": {
+    "bytes": 2603,
+    "sha256": "9c51ec4c7cc20b2c82d273c822273d41349f2a4e727b49577fbdfed6a9c499be"
+  },
+  "03_Android_v05/FPGA_Instrument_Assistant_v0.5.0.apk": {
+    "bytes": 41438,
+    "sha256": "de3bef6ead792a6044a5d5663f0cd09deacd8198b537281bbb14cfc31ed2d340"
+  },
+  "03_Android_v05/README.md": {
+    "bytes": 789,
+    "sha256": "801aab3b764f055fdda2a957b26c756a9e756c90bd20959b4283316e511c5030"
+  },
+  "03_Android_v05/res/drawable/ic_app.xml": {
+    "bytes": 439,
+    "sha256": "65f265e9776c94b4ff18553c8c65162ef663a17f21fa6ce6a44d848857359182"
+  },
+  "03_Android_v05/src/cn/fpga/instrument/MainActivity.java": {
+    "bytes": 43257,
+    "sha256": "042bfbd0f9a2b0d994b5ad31d6193af83ad869d0de355abc10a84fa73b1bc794"
+  },
+  "03_Android_v05/src/cn/fpga/instrument/Notes.java": {
+    "bytes": 821,
+    "sha256": "4a8479ac1ce70725960a8cfc4c34afe32104ad57a7096e80358bde21c8f61075"
+  },
+  "03_Android_v05/src/cn/fpga/instrument/Protocol.java": {
+    "bytes": 2234,
+    "sha256": "1ae3278af9ed7fd4175aae0f42fd35f0fcd418e5646d0f94abd18f7e565d95f4"
+  },
+  "03_Android_v05/src/cn/fpga/instrument/Recording.java": {
+    "bytes": 3676,
+    "sha256": "44b98bba0609c94bf42dca086fdc1e4f6bf4d99f6d35b6e802af7bc8958af3c2"
+  },
+  "03_Android_v05/tests/NotesTest.java": {
+    "bytes": 771,
+    "sha256": "2254a9f9b001f80bdebb9af415723dfca8a03012827f4042ed121a9d1553967d"
+  },
+  "03_Android_v05/tests/ProtocolTest.java": {
+    "bytes": 2685,
+    "sha256": "6a76ac4a92f47771e098dc392299d0048490454de7706c7d4f6f3b590f448570"
+  },
+  "03_Android_v05/tests/RecordingTest.java": {
+    "bytes": 4272,
+    "sha256": "ddb88b266c7a9f9b06a488d05e136f8a9dfc54d1079283a1786291b89c089eca"
+  },
+  "03_Android_v05/新版使用说明.md": {
+    "bytes": 16938,
+    "sha256": "2186d546ec59f3529bfa7d7fb0916011c5d468252ee68d4f8f9225c4061fc9a2"
+  },
+  "04_Serial_Display/ESP32实时波形接线说明.md": {
+    "bytes": 4364,
+    "sha256": "8822ad1ab643b2187938602f82afce0ff3594e9fe2a084b81d7b6d9d0d6841f6"
+  },
+  "04_Serial_Display/instrument_display.HMI": {
+    "bytes": 7345157,
+    "sha256": "0a7264dbc46ff25010afb1fd2e3cd8d121b9d6ca5aabd25d5c61206af769a711"
+  },
+  "04_Serial_Display/README.md": {
+    "bytes": 899,
+    "sha256": "a5d1fef3c19449f340dc14f8cb9c463da9c04199bf6d86c4126da5b10bef65a7"
+  },
+  "04_Serial_Display/v06_音量与波形稳定性.md": {
+    "bytes": 4221,
+    "sha256": "d86a649080873975cf3f15d670c0229c2642459e3b74ef45e47e40fb31e3296c"
+  },
+  "05_Firmware/ESP32_FLASH_README.md": {
+    "bytes": 510,
+    "sha256": "af6f847206cf22f8d79366b82091e9330db3b2fc72cbcf673733b8135c8e9114"
+  },
+  "05_Firmware/ESP32S3_R13_EN_v0.7.0_merged.bin": {
+    "bytes": 575520,
+    "sha256": "eb7bb1a9d47c297a2a1355e05f9b461070b6409b209a1b4dec83fde962bdc5f4"
+  },
+  "05_Firmware/fpga_instrument_r13a_led.fs": {
+    "bytes": 7264154,
+    "sha256": "8c8d54662f22fb81d75f2b82dbdf642a4add78e18342e6bb5911afaddd1a8ef8"
+  },
+  "06_Score_Test/score_upload_test_32.json": {
+    "bytes": 1697,
+    "sha256": "7b8b4956dad719d95b318b25d437c3d1f482a1af3b762792fdbcd7779d43aafd"
+  },
+  "06_Score_Test/上传并读回_调试HEX.txt": {
+    "bytes": 1250,
+    "sha256": "40ed932268810b16dec43af7c923deaba293188ad34f48662aacf8243bbf5513"
+  },
+  "07_Verification/ESP32_EN/build_info.json": {
+    "bytes": 211,
+    "sha256": "3a1dd774a904ca4e226b521b4013354d11d30cc0a7b17b545dc37cce8009f187"
+  },
+  "07_Verification/ESP32_EN/esp32_build.log": {
+    "bytes": 146188,
+    "sha256": "a9c89a1454434fdc7c4021e4965a3ae6542852c07a7c02df5ddfa28217da1d3b"
+  },
+  "07_Verification/ESP32_EN/esp32_image_info.txt": {
+    "bytes": 1527,
+    "sha256": "2b2b8f82e7643b9bf662fdc2463343cd264fdf5a67264f28fc9bf5f3e5f68318"
+  },
+  "07_Verification/ESP32_EN/host_results.log": {
+    "bytes": 238,
+    "sha256": "8292330957da010ecda174cfdb540635d43f6b43bd508cb1c7df8d33252418b1"
+  },
+  "07_Verification/ESP32_EN/host_tests_current.log": {
+    "bytes": 238,
+    "sha256": "8292330957da010ecda174cfdb540635d43f6b43bd508cb1c7df8d33252418b1"
+  },
+  "07_Verification/FPGA_R13_baseline/build_r13.log": {
+    "bytes": 23863,
+    "sha256": "914f35117f8ee182b683bf6e15ecbd6c960f7cbdec292f5c1e930aa07017ff7c"
+  },
+  "07_Verification/FPGA_R13_baseline/local32_top_test.log": {
+    "bytes": 3094,
+    "sha256": "31ad385516e648b2b0b0c6b1febf278e202a16580d3be47634d643ea81079b75"
+  },
+  "07_Verification/FPGA_R13_baseline/regression_r13.log": {
+    "bytes": 11472,
+    "sha256": "3f78a99296078b4a3bc91fcf90f5bd40fe7bc233730398b1259137d000c001e6"
+  },
+  "07_Verification/FPGA_R13_baseline/visual_tests.log": {
+    "bytes": 5408,
+    "sha256": "72912ee789cc990f0312eaf6a780656034033e07fe20c4ce34206f80eda6fc51"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led.pin.html": {
+    "bytes": 40013,
+    "sha256": "2daab627ab2c80a22c0b8e2ab4630ea68a0de3f46e5f2f9c8ef64cda0e871007"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led.power.html": {
+    "bytes": 12217,
+    "sha256": "52bfb81f323a033cf7eed520e4b6abc67f4f1a187a94b381955bb95df12e9376"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led.rpt.html": {
+    "bytes": 45317,
+    "sha256": "412e86f59596341e514a82600854f012b921c072f81e88540351f9b5ec8dc552"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led.rpt.txt": {
+    "bytes": 35611,
+    "sha256": "4041807d9d87a279d1a2b03f1ff5038871337c35cabe5c347a8e67ed7ec73e1f"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led.tr.html": {
+    "bytes": 383,
+    "sha256": "83a8ebf06938f29b73557e3fd04f7b55e962c3e31ba5d6e09d80bbc34b7c142f"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led_tr_cata.html": {
+    "bytes": 8243,
+    "sha256": "5c44e81daf52d30766f089f813efa176821def595a9dd41a6a020268b4dc73ff"
+  },
+  "07_Verification/FPGA_R13a/fpga_instrument_r13a_led_tr_content.html": {
+    "bytes": 327470,
+    "sha256": "f12eb182c025595bfab58cb2e84bb5689c875938696ce22fa5ab0ce76ed23d9d"
+  },
+  "07_Verification/FPGA_R13a/tb_led_menu_r13a.log": {
+    "bytes": 149,
+    "sha256": "cc4e5d16f32b15ce809bb577e23e6e7041354302bd6733f18a48283878228c59"
+  },
+  "07_Verification/FPGA_R13a/tb_score_upload_file.log": {
+    "bytes": 218,
+    "sha256": "88659fece88ea2e3e4b024c15d5cd0164e1aa7d97709829417c471ec385f8f4b"
+  },
+  "08_Documentation/32音频率表.md": {
+    "bytes": 1199,
+    "sha256": "b4524d428a51bc73433ee28fdeb5cd89b0e6e3e433e71019fd98f5ba17238e67"
+  },
+  "08_Documentation/README_使用与验收.md": {
+    "bytes": 10475,
+    "sha256": "790cff3d4a3ac742802d2bb01187997fb12d1a248875cfa5a3d6fcff248862f5"
+  },
+  "09_Visual_Tests/check_visual.py": {
+    "bytes": 1373,
+    "sha256": "6601e84b011eae671ce1b4703e337aed5f01111aaf5438a2c7446ae1143e7dde"
+  },
+  "09_Visual_Tests/host_results.log": {
+    "bytes": 238,
+    "sha256": "8292330957da010ecda174cfdb540635d43f6b43bd508cb1c7df8d33252418b1"
+  },
+  "09_Visual_Tests/numeric_results.log": {
+    "bytes": 172,
+    "sha256": "0183bea2790e618066014eb932194bd71093382376b7b110cf77944a7cc5fe04"
+  },
+  "09_Visual_Tests/preview_view0.png": {
+    "bytes": 5004,
+    "sha256": "302cf788bcf7d2dad0699c96cf9eae48602ae81bbc0feaf97a3b8baef219ffd5"
+  },
+  "09_Visual_Tests/preview_view1.png": {
+    "bytes": 4359,
+    "sha256": "8ec7ce7342cb66f9f28d1ed35be6e3485a93701e9fa796a74e08199ce8ba9e05"
+  },
+  "09_Visual_Tests/preview_view2.png": {
+    "bytes": 5048,
+    "sha256": "9593cfa2ec142b7394f0fae40c827e246e54dd864cb687e3b0a8a26974ec8657"
+  },
+  "09_Visual_Tests/preview_view3.png": {
+    "bytes": 6471,
+    "sha256": "53e1ac140c2af2424b8568eee19d637dec6ddeb60d27fc62ec5f3609d8a8e9a6"
+  },
+  "09_Visual_Tests/render_preview.py": {
+    "bytes": 581,
+    "sha256": "bd4a1f721ba67dc69827c08106945c6c46986100089971c52e38e733b491c61e"
+  },
+  "09_Visual_Tests/run_host.cmd": {
+    "bytes": 279,
+    "sha256": "70e8c110cbf6bd4886fa8acc0a01048d66a809479cb0dad839be3c04c9dcdff9"
+  },
+  "09_Visual_Tests/stubs/common.h": {
+    "bytes": 1633,
+    "sha256": "e1a38d8ffb08db47bc6837353cde416b1d9f45f2f5ec99e1c686dfd6ed2ddee8"
+  },
+  "09_Visual_Tests/stubs/driver/uart.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "09_Visual_Tests/stubs/esp_log.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "09_Visual_Tests/stubs/esp_timer.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "09_Visual_Tests/stubs/freertos/FreeRTOS.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "09_Visual_Tests/stubs/freertos/queue.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "09_Visual_Tests/stubs/freertos/task.h": {
+    "bytes": 21,
+    "sha256": "e655b10b0fea7153b701ee4b5c46e3e6f7ade6604972fc557e7af78603177123"
+  },
+  "09_Visual_Tests/test_host.c": {
+    "bytes": 2591,
+    "sha256": "870e5d3fab58b3623855de5c62f1d9358ca0da23155c6148144091553ce0475f"
+  },
+  "09_Visual_Tests/view0.commands": {
+    "bytes": 45658,
+    "sha256": "0bd0d6907b8bb4b6375248ebed7a291671b350e2529bda0c3e0493421667a130"
+  },
+  "09_Visual_Tests/view1.commands": {
+    "bytes": 50973,
+    "sha256": "acc4927dfb7dd41f669e0b44813f4adbbad4a7429ce269007eb01feb305e6b7f"
+  },
+  "09_Visual_Tests/view2.commands": {
+    "bytes": 57478,
+    "sha256": "0ff550a27e19f17b3697fd71513fd0290f011d8a90b4d22757abbe10c43f5248"
+  },
+  "09_Visual_Tests/view3.commands": {
+    "bytes": 103733,
+    "sha256": "37bf084a2305cd933ff40ccd7bf1177164e931638fe395117d94b476b20c5860"
+  },
+  "09_Visual_Tests/visual_packets.hex": {
+    "bytes": 7728,
+    "sha256": "52b94af09a9f0dfac48adf3062f1001ceb09035a620f0db9cb6ff162a2f7aea6"
+  },
+  "README_代码总览与编译说明.md": {
+    "bytes": 5558,
+    "sha256": "17ee83db0405ffbc2040d824fb822217b052a444edcd7fb694b50c5dd0b7a1b5"
+  }
+}

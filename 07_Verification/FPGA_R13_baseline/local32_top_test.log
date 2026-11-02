@@ -1,0 +1,18 @@
++ iverilog -B F:\Codex\projects\2026-09-24\mpr121-12-1-ele0-ele11-sda-3\work\oss-cad-suite\lib\ivl -g2012 -Wall -s top -o build/top.vvp rtl/audio/adsr.v rtl/audio/audio_effect.v rtl/audio/engine32.v rtl/audio/mixer.v rtl/audio/phase_accumulator.v rtl/audio/timbre_fade.v rtl/audio/voice.v rtl/audio/voice_bank.v rtl/audio/waveform_generator.v rtl/clock/clock_gen.v rtl/comm/ble_notes.v rtl/comm/uart_echo.v rtl/comm/uart_packet_mux.v rtl/comm/uart_rx.v rtl/comm/uart_tx.v rtl/input/ads1015_ctrl.v rtl/input/controls_extended.v rtl/input/debounce.v rtl/input/encoder.v rtl/input/i2c_byte.v rtl/input/i2c_master.v rtl/input/input_mapper.v rtl/input/key_remap.v rtl/input/mpr121_ctrl.v rtl/input/sensor_hub.v rtl/input/user_controls.v rtl/output/guide_extended.v rtl/output/i2s_tx.v rtl/output/led_guide.v rtl/output/song_guide.v rtl/top.v rtl/visual/visual_monitor.v diagnostic/encoder_diagnostic.v
+rtl/output/guide_extended.v:17: warning: @* is sensitive to all 192 words in array 'score'.
+rtl/comm/ble_notes.v:39: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:42: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:42: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:45: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:45: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:50: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:54: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:58: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:58: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:58: warning: @* is sensitive to all 7 words in array 'frame'.
+rtl/comm/ble_notes.v:61: warning: @* is sensitive to all 7 words in array 'frame'.
++ iverilog -B F:\Codex\projects\2026-09-24\mpr121-12-1-ele0-ele11-sda-3\work\oss-cad-suite\lib\ivl -g2012 -s tb_top_local32 -o build/tb_top_local32.vvp rtl/audio/adsr.v rtl/audio/audio_effect.v rtl/audio/engine32.v rtl/audio/mixer.v rtl/audio/phase_accumulator.v rtl/audio/timbre_fade.v rtl/audio/voice.v rtl/audio/voice_bank.v rtl/audio/waveform_generator.v rtl/clock/clock_gen.v rtl/comm/ble_notes.v rtl/comm/uart_echo.v rtl/comm/uart_packet_mux.v rtl/comm/uart_rx.v rtl/comm/uart_tx.v rtl/input/ads1015_ctrl.v rtl/input/controls_extended.v rtl/input/debounce.v rtl/input/encoder.v rtl/input/i2c_byte.v rtl/input/i2c_master.v rtl/input/input_mapper.v rtl/input/key_remap.v rtl/input/mpr121_ctrl.v rtl/input/sensor_hub.v rtl/input/user_controls.v rtl/output/guide_extended.v rtl/output/i2s_tx.v rtl/output/led_guide.v rtl/output/song_guide.v rtl/top.v rtl/visual/visual_monitor.v diagnostic/encoder_diagnostic.v sim/sensor_model.v sim/tb_top_local32.v
++ vvp -M - -i build/tb_top_local32.vvp
+PASS integrated local32: all active, C4-G6 FCWs, no frame overrun/clipping, gain capped during startup
+sim/tb_top_local32.v:19: $finish called at 1728635000 (1ps)
+1 HDL TESTS PASSED

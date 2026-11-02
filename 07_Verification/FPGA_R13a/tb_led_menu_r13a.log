@@ -1,0 +1,2 @@
+PASS normal menus0..9 binary LEDs, ready/fault preserved, test/guide indicator preserved
+sim/tb_led_menu_r13a.v:12: $finish called at 240000 (1ps)

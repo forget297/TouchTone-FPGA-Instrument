@@ -1,0 +1,9 @@
+{
+  "application_version": "0.7.0",
+  "display_language": "English",
+  "chip": "ESP32-S3",
+  "app_bytes": 509984,
+  "merged_bytes": 575520,
+  "merged_offset": "0x0",
+  "hardware_tested_this_run": false
+}
